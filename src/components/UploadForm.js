@@ -1,8 +1,8 @@
 'use client';
 import UploadIcon from "@/components/UploadIcon";
 import axios from "axios";
-import {useRouter} from "next/navigation";
-import {useState} from "react";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 export default function UploadForm() {
 

@@ -1,4 +1,4 @@
-import SparklesIcon from "@/components/SparklesIcon";
+import SparklesIcon from "@/components/SparklesIcon"
 
 export default function DemoSection() {
   return (

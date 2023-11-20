@@ -12,4 +12,4 @@ export default function PageHeaders({
         </h2>
       </section>
     );
-  }
+}
