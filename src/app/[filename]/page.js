@@ -1,11 +1,14 @@
 'use client'
 import axios from "axios";
 import {useEffect, useState} from "react";
+import {clearTranscriptionItems} from "@/libs/awsTranscriptionHelpers";
 
 
 export default function FilePage({params}) {
     const filename = params.filename;
     const [isTranscribing, setIsTranscribing] = useState(false);
+    const [isFetchingInfo, setIsFetchingInfo] = useState(false);
+    const [awsTranscriptionItems, setAwsTranscriptionItems] = useState([]);
 
 
     useEffect(() => {
