@@ -4,7 +4,7 @@ export default function DemoSection() {
   return (
     <section className="flex justify-around mt-8 sm:mt-12 items-center">
       <div className="hidden sm:block bg-gray-800/50 w-[240px] rounded-xl overflow-hidden">
-        <video src="https://dawid-epic-captions.s3.us-east-1.amazonaws.com/without-captions.mp4" preload muted autoPlay loop></video>
+        <video src="https://kenneth-captions.s3.us-west-1.amazonaws.com/eeslp8qjt38.mp4" preload muted autoPlay loop></video>
       </div>
       <div className="hidden sm:block">
         <SparklesIcon />
