@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
           <nav className="flex gap-6 text-white/80">
             <Link href="/">Home</Link>
             <Link href="/pricing">Pricing</Link>
-            <Link href="/mailto:contact">Contact</Link>
           </nav>
         </header>
           {children}
