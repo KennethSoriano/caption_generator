@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <PageHeaders 
         h1Text={'Add captions to your videos'} 
-        h2Tect={'Just Upload your video and we will do the rest'}
+        h2Text={'Just Upload your video and we will do the rest'}
       />
       <div className="text-center">
         <UploadForm />
